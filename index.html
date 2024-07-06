@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather Dashboard</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">My Weather Dashboard</h1>
+      <form id="search-form" class="form-inline justify-content-center mb-4">
+        <input
+          type="text"
+          id="city-input"
+          class="form-control mr-2"
+          placeholder="Enter city name"
+        />
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+      <div id="search-history" class="mb-4"></div>
+      <button id="clear-history" class="btn btn-danger mb-4">
+        Clear History
+      </button>
+      <div id="current-weather" class="mb-4"></div>
+      <div id="forecast" class="card-columns"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
