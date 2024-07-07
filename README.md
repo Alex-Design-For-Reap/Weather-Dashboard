@@ -69,6 +69,10 @@ Current Weather + 5 Days Forecast
 List/History of Cities > Local Storage
 ![alt text](assets/images/History-Local-Storage.png)
 
+## Link to access the application
+
+https://weather-dashboard-56h1.onrender.com/
+
 ## API Usage
 
 The application uses the [OpenWeatherMap API](https://openweathermap.org/api) to retrieve weather data.
